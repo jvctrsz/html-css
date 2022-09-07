@@ -1,0 +1,336 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Noto Sans',Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color: #181818;
+    width: 100%;
+    height: 5em;
+    position: sticky;
+}
+
+.navdiv {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.logo {
+    display: flex;
+
+}
+
+#logotext {
+    font-family:'Times New Roman', Times, serif;
+    padding-left: 10px;
+    font-size: 4vh;
+    transform: translate(0%, 50%);
+}
+
+.logo a,a:visited{
+    text-decoration: none;
+    color: #fff;
+}
+.logo a:hover{
+    color: #777;
+}
+#logoimg {
+    width: 4vh;
+    transform: translate(-50%, 125%);
+}
+
+.menuul {
+    padding-right: 10px;
+    display: flex;
+    list-style: none;
+    transform: translate(0, 100%);
+    font-size: 2.5vh;
+    font-weight: bold;
+}
+
+.menuli {
+    padding-left: 25px;
+}
+
+.contentcontainer {
+    padding-top: 5px;
+    display: flex;
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+.leftcontent {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#leftcontentimg {
+    width: 100%;
+    padding-left: 5px;
+    border: solid 1px #2a2a2a;
+    border-radius: 10px;
+}
+
+.hleftcont {
+    text-align: center;
+    text-shadow: 2px 2px #000;
+    letter-spacing: 2px;
+}
+
+.lefthr{
+    text-align: center;
+    width: 60%;
+    margin-top: 5px;
+    border:solid 1px #000;
+    opacity:0.4 ;
+
+}
+.hrdiv{
+    display: flex;
+    justify-content: center;
+}
+.pleftcont {
+    margin-bottom: 40px;
+    margin-top: 5px;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+    font-size: 0.92rem;
+    opacity: 0.9;
+    letter-spacing: 1.15px;
+}
+
+.rightcontent {
+    max-width: 50%;
+    padding-left: 15px;
+    display: flex;
+
+}
+
+.team {
+    width: 100%;
+
+}
+
+.teamimg{
+    width: 95%;
+    border: solid 5px #2a2a2a;
+    border-radius: 50%;
+}
+
+.hteam {
+    width: 95%;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+    letter-spacing: 1.5px;
+}
+
+.pteam {
+    padding-top: 5px;
+    width: 95%;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+    font-size: 0.92rem;
+    opacity: 0.9;
+    letter-spacing:1.15px;
+}
+.teamhr{
+    margin-top: 5px;
+    width: 95%;
+    border:solid 1px #000;
+    opacity:0.4 ;
+}
+
+.menuli a,a:visited{
+    color: #fff;
+    text-decoration: none;
+}
+.menuli a:hover{
+    color: #777;
+    text-decoration: none;
+    
+}
+.twosep{
+    width: 100%;
+    background-image: linear-gradient(90deg, grey, grey, rgba(255,255,255,0.5), rgba(255,255,255,0.5), grey, grey);
+    
+    border: 0;
+    height: 1px;
+}
+.portspace{
+    background-color: #2a2a2a;
+    width: 100%;
+    height: 50em;
+    display: flex; 
+    justify-content: center;
+}
+.portp{
+    color: #fff;
+    text-align: center;
+}
+.areaspace{
+    margin-top: 15px;
+    display: flex;
+    width: 70em;
+    height: 45em;
+    background-color: #333;
+    border: 4px solid;
+    border-radius: 30px;
+    border-image: linear-gradient(
+        rgba(0,0,0,0), rgba(0,0,0,0), rgba(180,180,180,0.3), rgba(180,180,180,0.3), rgba(255,255,255,0.3), rgba(255,255,255,0.5),
+        rgba(180,180,180,0.3), rgba(180,180,180,0.3), rgba(0,0,0,0), rgba(0,0,0,0) ) 70 100%;
+}
+.cards{
+    max-width: 70em;
+    max-height: 45em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10, .card11, .card12{
+    width: 10em;
+    height: 20em;
+    background-color: #fff;
+    border-radius: 30px;
+}
+.card1, .card7{
+    margin: 25px 0px 0px 0px;
+}
+.card3, .card5, .card9, .card11{
+    margin: 25px 0px 0px 15px;
+}
+.card2, .card4, .card6, .card8, .card10, .card12{
+    margin: 5px 0px 0px 15px;
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10, .card11, .card12{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #4449;
+    border: 1px solid rgba(0,0,0,0.25)
+}
+.picard{
+    width:9.5em;
+    height: 15em;
+    transform: translate(0, 15%);
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,0.25)
+}
+.infcard{
+    color: rgba(255,255,255,0.8);
+    padding-top: 25px;
+    font-size: 1.5em;
+    text-shadow: rgba(0,0,0,0.2) 2px 2px;
+}
+footer{
+    max-width: 100%;
+    width: 100%;
+    background-color: #181818;
+    border-top:2px solid #222;
+}
+.footcont{
+    display: flex;
+}
+.leftpart{
+    border-right: solid 2px #121212;
+}
+.name{
+    width: 25em;
+}
+.pna{
+    text-align: center;
+    position: relative;
+    transform: translate(-05%);
+    color: #fff;
+    font-size: 2.5em;
+    margin:10px 0px 0px 50px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-shadow:1px 2px #222;
+    text-shadow:1px 4px #333;
+}
+/* .nahr{
+    width: 25em;
+    border-color: #000;
+} */
+.contact{
+    width: 25em;
+}
+.footul{
+    color: #fff;
+    margin-top: 25px;
+    height: 18vh;
+}
+.lired{
+    margin-top: 20px;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    font-size: 1.5em; 
+    list-style: none;
+    text-shadow:1px 2px #333;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    
+    
+}
+.lizap, .liins, a,a:visited{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 20px;
+    font-size: 1.15em;
+    text-shadow:1px 2px #333;
+    letter-spacing: 2px;
+}
+.liemail a,a:visited{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 40px;
+    font-size: 1.2em;
+    text-shadow:1px 2px #333;
+    letter-spacing: 2px;
+}
+.liimg{
+    width: 24px;
+    transform: translate(0, 25%);
+    padding-right: 5px;
+}
+.linkimg{
+    transform: translate(0, 25%);
+    width: 24px;
+    padding-right: 5px;
+}
+.midpart{
+    width: 100%;
+    max-height: 18vh;
+    display: flex;
+}
+.infs{
+    display: flex;
+    flex-direction: column;
+}
+.loc{
+    color: #fff;
+    font-size: 1.8em;
+    letter-spacing: 4px;
+    text-shadow:1px 2px #222;
+    text-shadow:1px 4px #333;
+    margin: 15px 0px 0px 40px;
+    transform: translate(0, 15%);
+}
+.loc2{
+    color: #fff;
+    font-size: 1em;
+    letter-spacing: 4px;
+    text-shadow:1px 2px #333;
+    margin: 15px 0px 0px 40px;
+    transform: translate(0, 110%);
+}
+#map{
+    width: 50%;
+    height: 230px;
+    margin:15px 0px 0px 50px;
+}
