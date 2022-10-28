@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor facilisis consequat. Vestibulum sapien magna, lacinia id varius vitae, egestas id neque. Nunc ac tortor aliquet orci sagittis luctus eu vel lacus. Sed nec sapien eget diam elementum varius vel quis orci. Nunc nec leo at sem pellentesque ultrices quis sit amet lorem. Nulla vel nunc nec tortor dictum pellentesque a nec mauris. Vestibulum id accumsan dui, nec viverra libero. Nam rhoncus, felis eget bibendum luctus, enim orci tempor nulla, eget aliquet ipsum ipsum at elit. Sed eleifend nunc quis nisl dignissim ultrices. Nullam accumsan massa at luctus suscipit.
+
