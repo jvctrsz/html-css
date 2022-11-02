@@ -5,34 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Media Query</title>
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
             <ul>
-                <li><a href="">Opção 1</a></li>
-                <li><a href="">Opção 2</a></li>
-                <li><a href="">Opção 3</a></li>
-                <li><a href="">Opção 4</a></li>
-                <li><a href="">Opção 5</a></li>
+                <li><a href="">Notícias</a></li>
+                <li><a href="">Clima</a></li>
+                <li><a href="">Política</a></li>
+                <li><a href="">Futebol</a></li>
+                <li><a href="">Economia</a></li>
             </ul>
         </menu>
     </header>
     <main>
         <article>
             <h2>Testando Media Queries</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor facilisis consequat. Vestibulum sapien magna, lacinia id varius vitae, egestas id neque. Nunc ac tortor aliquet orci sagittis luctus eu vel lacus. Sed nec sapien eget diam elementum varius vel quis orci. Nunc nec leo at sem pellentesque ultrices quis sit amet lorem. Nulla vel nunc nec tortor dictum pellentesque a nec mauris. Vestibulum id accumsan dui, nec viverra libero. Nam rhoncus, felis eget bibendum luctus, enim orci tempor nulla, eget aliquet ipsum ipsum at elit. Sed eleifend nunc quis nisl dignissim ultrices. Nullam accumsan massa at luctus suscipit.
+            <p>A grande e forte frente fria que avançou sobre o Brasil está agora entre a Bahia, o Tocantins, Minas Gerais e Espírito Santo. Nuvens bastante carregadas crescem nesses estados e ainda há uma grande quantidade de nebulosidade e chuva desta frente fria espalhada sobre as outras áreas do Nordeste, da Região Norte, em parte do Centro-Oeste e do Sudeste do Brasil.
             </p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor facilisis consequat. Vestibulum sapien magna, lacinia id varius vitae, egestas id neque. Nunc ac tortor aliquet orci sagittis luctus eu vel lacus. Sed nec sapien eget diam elementum varius vel quis orci. Nunc nec leo at sem pellentesque ultrices quis sit amet lorem. Nulla vel nunc nec tortor dictum pellentesque a nec mauris. Vestibulum id accumsan dui, nec viverra libero. Nam rhoncus, felis eget bibendum luctus, enim orci tempor nulla, eget aliquet ipsum ipsum at elit. Sed eleifend nunc quis nisl dignissim ultrices. Nullam accumsan massa at luctus suscipit.
+            <p>Áreas de instabilidade associadas a essa frente fria ainda provocam muita chuva na área litorânea entre São Paulo e o Rio De Janeiro.
             </p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor facilisis consequat. Vestibulum sapien magna, lacinia id varius vitae, egestas id neque. Nunc ac tortor aliquet orci sagittis luctus eu vel lacus. Sed nec sapien eget diam elementum varius vel quis orci. Nunc nec leo at sem pellentesque ultrices quis sit amet lorem. Nulla vel nunc nec tortor dictum pellentesque a nec mauris. Vestibulum id accumsan dui, nec viverra libero. Nam rhoncus, felis eget bibendum luctus, enim orci tempor nulla, eget aliquet ipsum ipsum at elit. Sed eleifend nunc quis nisl dignissim ultrices. Nullam accumsan massa at luctus suscipit.
+            <p>A região de Bertioga, no litoral paulista, acumulou 121 MM em 24 horas, entre 1 hora da madrugada do dia primeiro e 1 hora do dia 2 de novembro.
+            Volumes de chuva acima de 100 mm em 24 horas também foram observados em áreas do Pará, na cidade do Rio de Janeiro e na região serrana fluminense.
+            </p>
 
+            <p> A intensa massa de ar frio de origem polar que veio com esta frente fria causa temperaturas excepcionalmente baixas para novembro nos estados do Sul, Sudeste, Centro-Oeste, no Acre, em Rondônia e no sul do Amazonas.
             </p>
         </article>
     </main>
+
+    <script>
+        function clickMenu() {
+           if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+           } else {
+            itens.style.display = 'block'
+           }
+        }
+    </script>
+
 </body>
 </html>
