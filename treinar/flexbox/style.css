@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    height:97vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: baseline;
+}
+
+.child{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 1px solid #000;
+    color: red;
+}
+
+div span {
+    color: red;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2em;
+}
